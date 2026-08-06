@@ -1,16 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Task
 
-Currently, two official plugins are available:
+You've learned that you can add another component inside the App component, and then render that new component inside the App component's return statement. 
+In this exercise, you'll practice doing just that. You will be instructed, step by step, to build a new component inside the App component, and to have it rendered on the screen.
+Note: Before you begin, make sure you understand how to work with the Coursera Code Lab for the React Basics course.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Steps
 
-## React Compiler
+### **Step 1**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Add a new component to the `App` component, named as `Heading`.
 
-## Expanding the ESLint configuration
+- Navigate to the `src` folder and find the `App.js` file. Click on the `App.js` file in the EXPLORER to have it open.
+- Now you're ready to add a new Component to the `App` component, and name that component `Heading`. Place it at the very top of the `App.js` file.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Step 2**
+
+Inside the `Heading` component, include a `return` statement, which will return JSX code.
+### **Step 3**
+
+To the right of the `return` keyword, add the following JSX code: <h1>This is an h1 heading</h1> Displays H1 element on the screen.
+
+### **Step 4**
+
+- At the top of the lab environment, locate the Terminal menu. Click on it to open a dropdown, then select New Terminal.
+- Once the new terminal is opened, it automatically navigates to the default project directory.
+- Use the  `npm start` command to start the development server.
+- You can now view the App in your browser by navigating to localhost:3000.
+- To view the output, click on the Browser Preview icon located on the left panel. It is the last icon in the panel.
+- In your browser, enter localhost:3000 to see the output.Heading element displays on browser.
+
+## **Tip**
+
+If you’re having trouble with this lab, please review the "Creating Components" video. This video covers all of the concepts that you’ll need to successfully complete this lab.
