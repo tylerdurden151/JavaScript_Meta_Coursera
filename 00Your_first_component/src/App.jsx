@@ -4,20 +4,17 @@ import viteLogo from './assets/vite.svg'
 
 import './App.css'
 
-function Heading() {
-  return (
-    <h1>This is an h1 heading</h1>
-  );
+function Heading(props) {
+  return <h1>{props.title}</h1>;
 }
 
-
-function App() { 
-  return ( 
-    <div className="App"> 
-      This is the starting code for "Your first component" ungraded lab 
-      <Heading /> 
-    </div> 
-  ); 
-} 
+function App() {
+  return (
+    <div className="App">
+      This is the starting code for "Your first component" ungraded lab
+      <Heading title="Hello!" />
+    </div>
+  );
+}
  
 export default App;
